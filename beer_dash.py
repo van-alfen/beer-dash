@@ -37,6 +37,7 @@ breweries
 
 # instantiate app
 app = Dash( __name__, external_stylesheets=[dbc.themes.FLATLY] )
+server = app.server
 app.title = 'Beer'
 
 
